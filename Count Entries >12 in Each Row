@@ -1,0 +1,2 @@
+m <- matrix(sample(1:20,30,TRUE),5,6); 
+apply(m,1,function(x)sum(x>12))
