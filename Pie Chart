@@ -1,0 +1,1 @@
+pie(c(30,20,50), labels=c("Math","Science","English"))
