@@ -1,0 +1,6 @@
+data(ChickWeight);
+summary(ChickWeight); 
+head(ChickWeight); 
+tail(ChickWeight)
+model <- lm(weight~Time+Diet,data=ChickWeight)
+predict(model, data.frame(Time=1,Diet=1))
