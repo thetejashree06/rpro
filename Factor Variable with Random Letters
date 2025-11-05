@@ -1,0 +1,5 @@
+set.seed(123); 
+x <- sample(LETTERS[1:5], 10, replace=TRUE); 
+f <- factor(x); 
+print(f); 
+levels(f)
