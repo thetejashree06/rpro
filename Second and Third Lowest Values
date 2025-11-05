@@ -1,0 +1,3 @@
+x <- c(10,20,30,40,50,60); 
+sorted <- sort(x)
+cat("2nd:", sorted[2], "3rd:", sorted[3])
