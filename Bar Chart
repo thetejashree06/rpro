@@ -1,0 +1,1 @@
+barplot(c(10,20,30,40,50), names.arg=c("A","B","C","D","E"))
