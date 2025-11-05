@@ -1,0 +1,5 @@
+data(airquality); 
+subset(airquality,Month==8 & Temp==min(Temp))
+sum(airquality$Wind>6,na.rm=TRUE)
+airquality$Ozone[is.na(airquality$Ozone)] <- mean(airquality$Ozone,na.rm=TRUE)
+lm(Ozone~Wind,data=airquality)
