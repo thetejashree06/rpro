@@ -1,0 +1,4 @@
+data(USArrests); cor(USArrests); 
+hist(USArrests$Murder)
+barplot(USArrests$Assault); 
+lm(Murder~Assault,data=USArrests)
