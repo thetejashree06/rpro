@@ -1,0 +1,6 @@
+h <- c(159,144,188,166,118,132,167,151,132,151)
+w <- c(63,52,54,81,47,47,78,62,62,48)
+m <- lm(w~h);
+plot(h,w,col="blue",pch=19,main="Height vs Weight"); 
+abline(m,col="red")
+predict(m, data.frame(h=170))
