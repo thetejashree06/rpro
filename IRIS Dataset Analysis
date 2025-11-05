@@ -1,0 +1,5 @@
+data(iris); dim(iris); 
+str(iris); 
+summary(iris); 
+mean(iris$Sepal.Length); 
+sd(iris$Sepal.Length)
